@@ -13,7 +13,7 @@ npm i css-beauty --save
 Browser:
 
 ```HTML
-<script src="https://unpkg.com/css-beauty@0.2.0/"></script>
+<script src="https://unpkg.com/css-beauty@0.2.0"></script>
 ```
 
 ```JavaScript
