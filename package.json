@@ -1,0 +1,44 @@
+{
+  "name": "css-beauty",
+  "version": "0.1.0",
+  "description": "A umd package for making your css beauty.",
+  "main": "lib/CSSBeauty.min.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "6.24.1",
+    "chai": "3.5.0",
+    "eslint": "3.19.0",
+    "eslint-config-elemefe": "^0.3.0",
+    "eslint-loader": "1.7.1",
+    "mocha": "3.3.0",
+    "webpack": "2.4.1",
+    "yargs": "7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/furybean/css-beauty.git"
+  },
+  "keywords": [
+    "css",
+    "beauty"
+  ],
+  "author": "long.zhang@me.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furybean/css-beauty/issues"
+  },
+  "homepage": "https://github.com/furybean/css-beauty#readme",
+  "dependencies": {
+    "css": "^2.2.1"
+  }
+}
