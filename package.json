@@ -1,9 +1,10 @@
 {
   "name": "css-beauty",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A umd package for making your css beauty.",
   "main": "lib/CSSBeauty.min.js",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
